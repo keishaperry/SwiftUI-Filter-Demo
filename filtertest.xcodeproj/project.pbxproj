@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6324689A24141D4300BEE0D5 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6324689924141D4300BEE0D5 /* TabBar.swift */; };
+		632468A024142EC500BEE0D5 /* FilterA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6324689F24142EC500BEE0D5 /* FilterA.swift */; };
+		632468A22414406000BEE0D5 /* FilterB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632468A12414406000BEE0D5 /* FilterB.swift */; };
 		63969184240F5B760062D0E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63969183240F5B760062D0E1 /* AppDelegate.swift */; };
 		63969186240F5B760062D0E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63969185240F5B760062D0E1 /* SceneDelegate.swift */; };
 		63969189240F5B760062D0E1 /* filtertest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63969187240F5B760062D0E1 /* filtertest.xcdatamodeld */; };
@@ -14,9 +17,15 @@
 		6396918D240F5B770062D0E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6396918C240F5B770062D0E1 /* Assets.xcassets */; };
 		63969190240F5B770062D0E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6396918F240F5B770062D0E1 /* Preview Assets.xcassets */; };
 		63969193240F5B770062D0E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63969191240F5B770062D0E1 /* LaunchScreen.storyboard */; };
+		6396919C240F5BC90062D0E1 /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6396919A240F5BC90062D0E1 /* Singer+CoreDataClass.swift */; };
+		6396919D240F5BC90062D0E1 /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6396919B240F5BC90062D0E1 /* Singer+CoreDataProperties.swift */; };
+		6396919F240F5C250062D0E1 /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6396919E240F5C250062D0E1 /* FilteredList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6324689924141D4300BEE0D5 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		6324689F24142EC500BEE0D5 /* FilterA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterA.swift; sourceTree = "<group>"; };
+		632468A12414406000BEE0D5 /* FilterB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterB.swift; sourceTree = "<group>"; };
 		63969180240F5B760062D0E1 /* filtertest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = filtertest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63969183240F5B760062D0E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63969185240F5B760062D0E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +35,9 @@
 		6396918F240F5B770062D0E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		63969192240F5B770062D0E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63969194240F5B770062D0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6396919A240F5BC90062D0E1 /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		6396919B240F5BC90062D0E1 /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		6396919E240F5C250062D0E1 /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +70,15 @@
 		63969182240F5B760062D0E1 /* filtertest */ = {
 			isa = PBXGroup;
 			children = (
+				6396919A240F5BC90062D0E1 /* Singer+CoreDataClass.swift */,
+				6396919B240F5BC90062D0E1 /* Singer+CoreDataProperties.swift */,
 				63969183240F5B760062D0E1 /* AppDelegate.swift */,
+				6324689F24142EC500BEE0D5 /* FilterA.swift */,
+				632468A12414406000BEE0D5 /* FilterB.swift */,
 				63969185240F5B760062D0E1 /* SceneDelegate.swift */,
 				6396918A240F5B760062D0E1 /* ContentView.swift */,
+				6324689924141D4300BEE0D5 /* TabBar.swift */,
+				6396919E240F5C250062D0E1 /* FilteredList.swift */,
 				6396918C240F5B770062D0E1 /* Assets.xcassets */,
 				63969191240F5B770062D0E1 /* LaunchScreen.storyboard */,
 				63969194240F5B770062D0E1 /* Info.plist */,
@@ -150,9 +168,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				63969184240F5B760062D0E1 /* AppDelegate.swift in Sources */,
+				6396919D240F5BC90062D0E1 /* Singer+CoreDataProperties.swift in Sources */,
 				63969186240F5B760062D0E1 /* SceneDelegate.swift in Sources */,
+				6324689A24141D4300BEE0D5 /* TabBar.swift in Sources */,
+				6396919C240F5BC90062D0E1 /* Singer+CoreDataClass.swift in Sources */,
 				6396918B240F5B760062D0E1 /* ContentView.swift in Sources */,
 				63969189240F5B760062D0E1 /* filtertest.xcdatamodeld in Sources */,
+				6396919F240F5C250062D0E1 /* FilteredList.swift in Sources */,
+				632468A22414406000BEE0D5 /* FilterB.swift in Sources */,
+				632468A024142EC500BEE0D5 /* FilterA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"filtertest/Preview Content\"";
+				DEVELOPMENT_TEAM = 69B2NZ3KF6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = filtertest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,6 +334,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"filtertest/Preview Content\"";
+				DEVELOPMENT_TEAM = 69B2NZ3KF6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = filtertest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
